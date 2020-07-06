@@ -8,7 +8,7 @@ import {
 
 import styles from "./styles";
 
-const CustomDrawer: React.FC = (props) => {
+const CustomDrawer: React.FC<any> = (props: any) => {
   return (
     <View style={styles.container}>
       <View style={styles.userArea}>
